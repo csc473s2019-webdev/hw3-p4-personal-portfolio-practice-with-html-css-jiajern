@@ -1,4 +1,4 @@
-.project-tile {
+/*.project-tile {
 
 }
 
@@ -13,3 +13,7 @@
 #projects {
     
 }
+*/
+.carousel-inner > .item {
+    height: 500px;
+ }
