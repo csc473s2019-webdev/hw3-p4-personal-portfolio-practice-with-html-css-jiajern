@@ -1,19 +1,25 @@
 /*.project-tile {
 
 }
-
-#navbar {
-
-}
-
-#welcome-section {
-
-}
-
 #projects {
     
 }
 */
+#welcome-section {
+    height:100vh;
+    width:100vw;
+    background: deepskyblue;
+}
 .carousel-inner > .item {
-    height: 500px;
+    /* trying to rezie the image with the welcome section but it seems not working */
+    height: auto;
+    width: auto;
+    max-height: 100%;
+    max-width: 100%;
  }
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1; /* make sure it will appear at the front */
+}
