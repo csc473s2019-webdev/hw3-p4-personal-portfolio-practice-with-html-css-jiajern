@@ -26,5 +26,6 @@
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: darkolivegreen;
     z-index: 1; /* make sure it will appear at the front */
 }
